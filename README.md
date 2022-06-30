@@ -2,7 +2,7 @@
 Implementation of a 3-layer feed-forward neural network (NN) model for time-series modeling and forecasting problems that is trained using a multi-function activated WASD (weights-and-structure-determination) for time-series algorithm, called MAWTS.
 The purpose of this package is to solve time-series modeling and forecasting problems. The MAWTS algorithm employs four activation functions (AFs) to determine the MAWTSNN’s optimal weights and structure, while employing cross-validation to avoid overfitting.
 The main article used is the following:
-*	S.D.Mourtas, V.N.Katsikis, "Continuous-Time Black-Litterman Portfolio Optimization: A Neural Network Approach", (submitted)
+*	S.D.Mourtas, V.N.Katsikis, "Exploiting the Black-Litterman framework through error-correction neural networks", Neurocomputing, vol. 498, 43-58 (2022)
 
 Also, the package includes the following two datasets:
 *	Board of Governors of the Federal Reserve System (US), Industrial Production: Utilities: Electric and Gas Utilities (NAICS = 2211,2) [IPG2211A2N], retrieved from FRED at https://fred.stlouisfed.org/series/IPG2211A2N
