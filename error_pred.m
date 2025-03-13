@@ -4,7 +4,7 @@ R=(X-Y)./Y; Z=length(R);
 [row,col]=find(isnan(R)); R(row,col)=0;
 [row,col]=find(isinf(R)); R(row,col)=0;
 
-yh=mean(X); % test
+yh=mean(Y); % test
 SStot=sum((X-yh).^2);
 SSres=sum((X-Y).^2);
 R2=1-SSres/SStot;
